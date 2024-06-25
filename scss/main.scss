@@ -113,7 +113,24 @@ body {
 @media screen and (min-width: 48em) {
   body {
     background: url("../images/pattern-background-desktop.svg") no-repeat;
-    background-size: 100%;
+    // background-size: 100%;
+    background-position: 0 -30%;
     background-color: $clr-primary-200;
+  }
+
+  .plan {
+    padding: 1.5rem;
+  }
+
+  .plan__icon {
+    margin-right: 1.25rem;
+  }
+
+  .card__button {
+    margin-top: 2rem;
+  }
+
+  .card__cancel {
+    margin-top: 2rem;
   }
 }
