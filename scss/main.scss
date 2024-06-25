@@ -26,7 +26,8 @@ body {
 }
 
 .card__content {
-  padding: 2rem;
+  // padding: clamp(3rem, calc(3rem + ((1vw - 0.2rem) * 1.8182)), 4rem);
+  padding: 2.5rem;
   text-align: center;
 }
 
@@ -106,5 +107,13 @@ body {
 
   &:hover {
     color: $clr-neutral-600;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  body {
+    background: url("../images/pattern-background-desktop.svg") no-repeat;
+    background-size: 100%;
+    background-color: $clr-primary-200;
   }
 }

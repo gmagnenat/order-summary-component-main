@@ -13,3 +13,22 @@ $clr-white: hsl(0, 0%, 100%);
 $shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
 
 $ff: "Red Hat Display", sans-serif;
+
+/************************************************
+ * =Breakpoints
+ ************************************************/
+$breakpoint-sm: 32em; // 512px
+$breakpoint-md: 48em; // 768px
+$breakpoint-lg: 62em; // 992px
+
+$breakpoints: (
+  "small": (
+    min-width: $breakpoint-sm,
+  ),
+  "medium": (
+    min-width: $breakpoint-md,
+  ),
+  "large": (
+    min-width: $breakpoint-lg,
+  ),
+);
