@@ -22,7 +22,7 @@ body {
   background-color: $clr-white;
   border-radius: 1rem;
   overflow: hidden;
-  box-shadow: 0 2.5rem 2.5rem -1.25rem rgba($clr-neutral-600, 0.2);
+  box-shadow: $shadow-lg;
 }
 
 .card__content {
@@ -32,11 +32,7 @@ body {
 }
 
 .card__title {
-  font-size: clamp(
-    1.375rem,
-    calc(1.375rem + ((1vw - 0.2rem) * 0.6818)),
-    1.75rem
-  );
+  font-size: $fs-xxl;
   color: $clr-neutral-600;
 }
 
@@ -88,7 +84,7 @@ body {
   text-decoration: none;
   padding: 0.9375rem 3rem;
   font-weight: 700;
-  box-shadow: 0 1.25rem 1.25rem rgba($clr-primary-400, 0.2);
+  box-shadow: $shadow-md;
   border-radius: 0.6875rem;
   transition: all 0.2s;
 
@@ -113,7 +109,6 @@ body {
 @media screen and (min-width: 48em) {
   body {
     background: url("../images/pattern-background-desktop.svg") no-repeat;
-    // background-size: 100%;
     background-position: 0 -30%;
     background-color: $clr-primary-200;
   }

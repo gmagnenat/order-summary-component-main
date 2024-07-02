@@ -5,11 +5,3 @@
   justify-content: center;
   align-items: center;
 }
-
-@mixin responsive($size) {
-  $query: map-get($breakpoints, $size);
-
-  @media #{$query} {
-    @content;
-  }
-}

@@ -1,6 +1,6 @@
 # Frontend Mentor - Order summary card solution
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -11,10 +11,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -30,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/gmagnenat/order-summary-component-main](https://github.com/gmagnenat/order-summary-component-main)
+- Live Site URL: [https://splendorous-pudding-46b80b.netlify.app/](https://splendorous-pudding-46b80b.netlify.app/)
 
 ## My process
 
@@ -45,14 +42,10 @@ Users should be able to:
 
 ### What I learned
 
-### Continued development
-
-### Useful resources
+Pratice css by focusing on low specificity for a better readability and maintainability.
 
 ## Author
 
-- Website - [Add your name here](https://gmagnenat.com)
+- Website - [Gwenaël Magnenat](https://gmagnenat.com)
 - Frontend Mentor - [@gmagnenat](https://www.frontendmentor.io/profile/gmagnenat)
 - LinkedIn - [@gmagnenat](https://linkedin.com/in/gmagnenat)
-
-## Acknowledgments
