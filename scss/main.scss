@@ -13,7 +13,7 @@ body {
   background-color: $clr-primary-200;
   font-family: $ff;
   color: $clr-neutral-200;
-  padding-inline: 1rem;
+  padding: 1rem;
 }
 
 .card {
@@ -26,7 +26,6 @@ body {
 }
 
 .card__content {
-  // padding: clamp(3rem, calc(3rem + ((1vw - 0.2rem) * 1.8182)), 4rem);
   padding: 2.5rem;
   text-align: center;
 }
